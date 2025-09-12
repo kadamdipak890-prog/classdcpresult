@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DK CLASSES Result Portal</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+<header>
+    <h1>DK CLASSES Result Portal</h1>
+</header>
+
+<div class="filters">
+    <input type="text" id="searchBox" placeholder="Search by Name or Roll No">
+    <select id="classFilter">
+        <option value="">All Classes</option>
+        <option value="10">Class 10</option>
+        <option value="12">Class 12</option>
+    </select>
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>Roll No</th>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Gender</th>
+            <th>Marks</th>
+            <th>%</th>
+            <th>Rank</th>
+            <th>Percentile</th>
+        </tr>
+    </thead>
+    <tbody id="resultTableBody"></tbody>
+</table>
+</body>
+</html>
